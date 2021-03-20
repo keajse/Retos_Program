@@ -5,9 +5,9 @@ la luna a partir de la temperatura máxima y mínima de cada día*/
 
 console.log("Función Tradicional")
 
-function promedio(tempInicial,tempFinal)
+function promedio(tempMax,tempMin)
 {
-    let average = (tempInicial+ tempFinal)/2
+    let average = (tempMax + tempMin)/2
     return average
 }
 
